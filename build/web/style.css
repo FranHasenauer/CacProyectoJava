@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 p {
@@ -10,7 +11,7 @@ p {
 }
 
 hr {
-    background-color: orange;
+    background-color: #ea6363;
     height: 15px;
     margin-bottom: -1px;
     margin-top: -5px;
@@ -79,3 +80,4 @@ ul {
     text-align: justify;
     font-family: 'Roboto Condensed', sans-serif;
 }
+

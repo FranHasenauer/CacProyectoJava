@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('img/fondoLogin.jpg');
+}
+
+.form-login {
+    width: 400px;
+    height: 360px;
+    background-color: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 7px 37px #252525;
+    padding: 20px 30px;
+    border-top: 4px solid #ea6363;
+    color: white;
+
+}
+
+.form-login h5 {
+    margin: opx;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+    font-size: 20px;
+
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #ea6363;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #646161;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #ea6363;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.buttons:hover {
+    box-shadow: 7px 7px 37px #b8a9a9;
+    background: #ec5353;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
