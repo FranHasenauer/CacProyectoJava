@@ -11,10 +11,12 @@
 <body>
     <section class="form-login">
         <h5>Login</h5>
-        <input class="controls"   type="text" name="usuario" id="" placeholder="Usuario">
-        <input class="controls" type="password" name="Contrasña" id="" placeholder="Contraseña">
+        <form action="checkuser" method="post">
+        <input class="controls"   type="email" name="inputEmail" id="inputEmail"  placeholder="Usuario">
+        <input class="controls" type="password" name="inputPass" id="inputPass"  placeholder="Contraseña">
         <input class="buttons" type="submit" value="Ingresar">
         <p><a href="">Olvidaste tu contraseña?</a></p>
+        </form>
     </section>
 
 </body>

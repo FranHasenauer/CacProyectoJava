@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(255, 172, 127);
+ padding: 20px 30px;
+  text-align: center;
+   margin: auto;
+   
+  
+}
+#btnSubmit {
+  background-color: rgb(221, 133, 17);
+  border: solid 2px rgb(136, 125, 3);
+  box-shadow: rgb(217, 217, 222) 2px 2px 12px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.container .row label {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
